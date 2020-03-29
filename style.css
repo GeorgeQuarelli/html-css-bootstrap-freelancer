@@ -1,3 +1,8 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
 .navbar-default {
     background-color: #313e4f;
     height: 100px;
@@ -9,11 +14,21 @@
 }
 
 .container {
-    margin-top: 20px;
+    padding-top: 20px;
 
 }
 
 .navbar-default .navbar-nav>li>a {
     color: white;
     font-size: 15px;
+}
+
+.jambo {
+    background-color: #66ba9e;
+}
+
+.navbar {
+    margin-bottom: 0px;
+    border: 0px;
+    border-radius: 0px;
 }
