@@ -1,7 +1,6 @@
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
+body {
+    color: white;
+    font-family: 'Lato', sans-serif;
 }
 .navbar-default {
     background-color: #313e4f;
@@ -14,7 +13,7 @@
 }
 
 .container {
-    padding-top: 20px;
+    padding-top: 25px;
 
 }
 
@@ -23,8 +22,18 @@
     font-size: 15px;
 }
 
-.jambo {
+.jumbotron {
     background-color: #66ba9e;
+}
+
+.jumbotron img {
+    height: 250px;
+    margin-top: 30px;
+}
+
+.jumbotron h1 {
+    color: white;
+    font-size: 55px;
 }
 
 .navbar {
