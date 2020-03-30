@@ -1,43 +1,74 @@
-body {
-    color: white;
-    font-family: 'Lato', sans-serif;
-}
-.navbar-default {
-    background-color: #313e4f;
-    height: 100px;
+.navbar-default.navbar {
+    border: 0;
+    background-color: #2D3E50;
+    border-radius: 0;
+    padding: 20px 0;
+    margin-bottom: 0;
 }
 
 .navbar-default .navbar-brand {
-    color: white;
-    font-size: 25px;
+    font-size: 22px;
 }
 
-.container {
-    padding-top: 25px;
-
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
-.navbar-default .navbar-nav>li>a {
-    color: white;
-    font-size: 15px;
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: #ddd;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+main {
+    padding-top: 90px;
 }
 
 .jumbotron {
-    background-color: #66ba9e;
+    background-color: #1BBC9B;
+    color: white;
+    margin-bottom: 0;
+    padding: 100px 0;
 }
 
 .jumbotron img {
-    height: 250px;
-    margin-top: 30px;
+    height: 200px;
 }
 
 .jumbotron h1 {
-    color: white;
-    font-size: 55px;
+    font-weight: bold;
 }
 
-.navbar {
-    margin-bottom: 0px;
-    border: 0px;
-    border-radius: 0px;
+.separatore {
+    width: 250px;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.separatore::before,
+.separatore::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: calc((100% - 60px) / 2);
+    height: 3px;
+    background-color: white;
+}
+
+.separatore::before {
+    left: 0;
+}
+
+.separatore::after {
+    right: 0;
 }
