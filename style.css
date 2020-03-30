@@ -72,3 +72,62 @@ main {
 .separatore::after {
     right: 0;
 }
+
+.portfolio.text-center {
+    margin-top: 70px;
+}
+
+.portfolio .h1 {
+    font-weight: bold;
+}
+
+.separatore2::before,
+.separatore2 {
+    content: '';
+    top: 50%;
+    transform: translateY(-50%);
+    width: calc((100% - 60px) / 2);
+    height: 3px;
+    background-color: black;
+}
+
+.separatore2::before {
+    left: 0;
+}
+
+.separatore2::after {
+    right: 0;
+}
+
+#portfolio {
+    color: black;
+}
+
+.img-img {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+#about {
+    background-color: rgb(47, 188, 156);
+    margin-top: 80px;
+    color: white;
+}
+
+#about p {
+    font-size: 20px;
+}
+
+#about .btn-default {
+    color: white;
+    background-color: rgb(47, 188, 156);
+    border-color: white;
+}
+
+#about .btn {
+    border: 2px solid;
+    font-size: 20px;
+    padding: 15px 25px;
+    margin-top: 20px;
+}
